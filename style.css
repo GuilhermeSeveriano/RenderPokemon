@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(./Fonts/PoetsenOne-Regular.ttf);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.main{
+    background-color: white;
+    
+    
+    
+}
+
+.main img{
+    width: 10em;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C1C;
+    padding: 2em;
+}
+
+.main h2{
+    font-size: 45px;
+    color:#ef5350;
+    text-align: center;
+}
+
+.pokemon-boxes{
+    margin:20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon-box{
+   
+    border-radius:10px;
+    width:29%;
+    margin:20px 2%;
+    background-color:rgb(230,230,230);
+}
+
+.pokemon-box img{
+    width:100%;
+}
+
+.pokemon-box p{
+    color:black;
+    font-size: 21px;
+    text-align: center;
+    padding:10px 0;
+}
+
+
+@media screen and (max-width:768px){
+    .pokemon-box{width:100%;text-align: center;}
+    .pokemon-box img{
+        max-width: 300px;
+    }
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+
+}   
+
+.campo{
+    width: 20em;
+    text-align: center;
+   
+    height: 2.5em;
+    
+}
+
+.cmpinput{
+
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-box p::first-letter{
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+.pokemon-box p{
+    font-family: Pokemon;
+    color: red;
+}
