@@ -10,13 +10,11 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(193, 235, 5, 0.884);
 }
 
 .main{
     background-color: white;
-    
-    
     
 }
 
@@ -89,6 +87,7 @@ body{
 
     display: flex;
     justify-content: center;
+    margin-top: 2em;
 }
 
 .pokemon-box p::first-letter{
